@@ -55,9 +55,6 @@
     }
 
 }))(typeof window !== 'undefined' ? window : this, (w, d) => {
-
-    class Push {
-
-    }
-
+    import Push from './classes/Push';
+    return new Push(w, d);
 });
