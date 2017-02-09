@@ -8,7 +8,7 @@ TEST_TAG_2 = 'bar',
 TEST_ICON = 'icon',
 TEST_ICON_ARRAY = { x16: TEST_ICON, x32: TEST_ICON },
 TEST_SW = 'customServiceWorker.js',
-TEST_SW_DEFAULT = "serviceWorker.js"
+TEST_SW_DEFAULT = "serviceWorker.js",
 NOOP = function () {}; // NO OPerator (empty function)
 
 describe('initialization', function () {
